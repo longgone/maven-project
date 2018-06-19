@@ -1,5 +1,6 @@
 package com.mulesoft.training;
 
+
 import static org.junit.Assert.*;
 
 import org.junit.Test;
@@ -12,7 +13,7 @@ public class HelloMavenTest extends FunctionalTestCase {
     public void mavenFlowReturnsHelloMaven() throws Exception {
         runFlowAndExpect("mavenFlow", "Hello Maven");
     }
-
+    
     @Test
     public void retrieveFlightsAddsAppropriateHeader() throws Exception {
     MuleEvent event = runFlow("retrieveFlights");
