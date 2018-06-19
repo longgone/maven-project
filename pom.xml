@@ -151,31 +151,31 @@
 			<groupId>org.mule.modules</groupId>
 			<artifactId>mule-module-http</artifactId>
 			<version>${mule.version}</version>
-			<scope>provided</scope>
+			
 		</dependency>
 		<dependency>
 			<groupId>org.mule.modules</groupId>
 			<artifactId>mule-module-spring-config</artifactId>
 			<version>${mule.version}</version>
-			<scope>provided</scope>
+			
 		</dependency>
 		<dependency>
 			<groupId>org.mule.modules</groupId>
 			<artifactId>mule-module-db</artifactId>
 			<version>${mule.version}</version>
-			<scope>provided</scope>
+			
 		</dependency>
 		<dependency>
 			<groupId>org.mule.transports</groupId>
 			<artifactId>mule-transport-jms</artifactId>
 			<version>${mule.version}</version>
-			<scope>provided</scope>
+			
 		</dependency>
 		<dependency>
 			<groupId>org.mule.modules</groupId>
 			<artifactId>mule-module-json</artifactId>
 			<version>${mule.version}</version>
-			<scope>provided</scope>
+			
 		</dependency>
 	</dependencies>
 
@@ -206,3 +206,6 @@
 	</pluginRepositories>
 
 </project>
+
+
+
